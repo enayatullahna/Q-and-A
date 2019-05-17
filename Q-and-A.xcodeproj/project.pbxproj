@@ -15,6 +15,8 @@
 		E6C4791F228E49C800E20CD9 /* QuestionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C4791E228E49C800E20CD9 /* QuestionController.swift */; };
 		E6C47923228E4D1800E20CD9 /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C47922228E4D1800E20CD9 /* QuestionTableViewCell.swift */; };
 		E6C47925228E4D2F00E20CD9 /* QuestionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C47924228E4D2F00E20CD9 /* QuestionsTableViewController.swift */; };
+		E6C4792B228E4E9C00E20CD9 /* AskQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C4792A228E4E9C00E20CD9 /* AskQuestionViewController.swift */; };
+		E6C4792D228E4EEE00E20CD9 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C4792C228E4EEE00E20CD9 /* AnswerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		E6C4791E228E49C800E20CD9 /* QuestionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionController.swift; sourceTree = "<group>"; };
 		E6C47922228E4D1800E20CD9 /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
 		E6C47924228E4D2F00E20CD9 /* QuestionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsTableViewController.swift; sourceTree = "<group>"; };
+		E6C4792A228E4E9C00E20CD9 /* AskQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskQuestionViewController.swift; sourceTree = "<group>"; };
+		E6C4792C228E4EEE00E20CD9 /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 		E6C47907228E471700E20CD9 /* Q-and-A */ = {
 			isa = PBXGroup;
 			children = (
+				E6C47929228E4E5700E20CD9 /* View */,
 				E6C4791A228E494500E20CD9 /* Resources */,
 				E6C47927228E4D4F00E20CD9 /* Storyboard */,
 				E6C4791D228E49B100E20CD9 /* Model */,
@@ -108,9 +113,18 @@
 			isa = PBXGroup;
 			children = (
 				E6C47924228E4D2F00E20CD9 /* QuestionsTableViewController.swift */,
-				E6C47922228E4D1800E20CD9 /* QuestionTableViewCell.swift */,
+				E6C4792A228E4E9C00E20CD9 /* AskQuestionViewController.swift */,
+				E6C4792C228E4EEE00E20CD9 /* AnswerViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		E6C47929228E4E5700E20CD9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E6C47922228E4D1800E20CD9 /* QuestionTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,7 +199,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6C47909228E471700E20CD9 /* AppDelegate.swift in Sources */,
+				E6C4792D228E4EEE00E20CD9 /* AnswerViewController.swift in Sources */,
 				E6C47925228E4D2F00E20CD9 /* QuestionsTableViewController.swift in Sources */,
+				E6C4792B228E4E9C00E20CD9 /* AskQuestionViewController.swift in Sources */,
 				E6C47923228E4D1800E20CD9 /* QuestionTableViewCell.swift in Sources */,
 				E6C4791C228E498400E20CD9 /* Question.swift in Sources */,
 				E6C4791F228E49C800E20CD9 /* QuestionController.swift in Sources */,
